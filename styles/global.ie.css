@@ -1,0 +1,59 @@
+/* Start Lightbox Styles */
+
+
+
+/* End Lightbox Styles */
+
+/* Start Login Styles */
+
+button.jqTransformButton span span{
+	padding: 8px 20px 0;
+	width: 40px;
+}
+
+/* End Login Styles */
+
+/* Start Header Styles */
+
+div#topNav ul li#updateManager ul{
+	left: 0;
+	margin-top: 35px;
+}
+
+/* End Header Styles */
+
+/* Start content body styles */
+div#updatesSince p{
+	margin-left: 70px;
+}
+#btnUpload span span{
+	padding: 8px 0 0;
+	width: 140px;
+}
+#btnRemoveAttachment span span{
+	width: 140px;
+}
+td#tdSave{
+	position: relative;
+	top: 10px;
+}
+#btnRemoveAttachment span span{
+	width: 140px;
+}
+#btnRemoveCategory span span{
+	width: 60px;
+}
+
+/* End content body styles */
+
+/* Start Category Management Specific Styles */
+
+
+
+/* End Category Management Specific Styles */
+
+/* Start Date Picker Specific Styles */
+
+
+
+/* End Date Picker Specific Styles */

@@ -1,0 +1,29 @@
+.center_text {
+	text-align:center;
+}
+
+#frmUsers {
+	width:700px;
+	margin:0 auto;
+}
+
+#frmUsers .form_row {
+	margin:5px;
+}
+
+#frmUsers label {
+	font-weight:bold;
+	width:300px;
+	margin-right:10px;
+	display:inline-block;
+	text-align:right;
+}
+
+#frmUsers input[type="text"] {
+	width:350px;
+}
+
+#frmUsers .pw_note {
+	display:inline;
+}
+

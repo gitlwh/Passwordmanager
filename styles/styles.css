@@ -1,0 +1,27 @@
+﻿
+h1           { font-family: arial; font-size: 12pt; color: #000000; font-weight: bold }
+
+td {
+	text-align: left;
+	font-family: arial;
+	color:#000000;
+}
+a {
+	text-decoration: underline;
+}
+a.1 {
+	color: #000000;
+}
+.t11 {
+	font-family: arial;
+	font-size: 11px;
+	font-style: normal;
+}
+body  {margin:0px;padding:0px}
+.style2 {color:#295B7B}
+.style3 {color:#007CAD}
+.style4 {color: #FFFFFF}
+
+
+#poweredBy a:hover {color: #fff !important;}
+

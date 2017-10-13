@@ -1,0 +1,83 @@
+/* Start Lightbox Styles */
+
+
+
+/* End Lightbox Styles */
+
+/* Start Login Styles */
+
+div#login_box p{
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+button.jqTransformButton{
+	margin-top: -5px !important;
+	padding: 8px 20px 0;
+	width: 40px;
+}
+
+/* End Login Styles */
+
+/* Start Header Styles */
+
+div#topNav ul li#updateManager ul{
+	left: 0;
+	margin-top: 35px;
+}
+
+/* End Header Styles */
+
+/* Start content body styles */
+div#headings{
+	width: 1032px !important;
+}
+#btnUpload{
+	padding: 8px 0 0;
+	width: 140px;
+}
+#btnRemoveAttachment{
+	padding: 8px 0 0;
+	position: relative;
+	top: 8px;
+	width: 140px;
+}
+#btnRemoveAttachment span span{
+	width: 140px;
+}
+td#tdSave{
+	position: relative;
+	top: 10px;
+}
+a.removeLocation{
+	left: 325px;
+	position: relative;
+	top: -23px;
+}
+a.addLocation{
+	position: relative;
+	top: -10px;
+}
+.catCancel{
+	left: 200px;
+	position: relative;
+	top: -40px;
+}
+#btnCancelAddCategoryName, #btnCancelEditCategoryName{
+	left: 50px;
+	position: relative;
+	top: -40px;
+}
+
+/* End content body styles */
+
+/* Start Category Management Specific Styles */
+
+
+
+/* End Category Management Specific Styles */
+
+/* Start Date Picker Specific Styles */
+
+
+
+/* End Date Picker Specific Styles */

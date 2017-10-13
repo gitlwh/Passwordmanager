@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+}
+img.left {
+  padding: 0 10px 10px 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.right {
+  float: right;
+}
+.t-right {
+  text-align: right;
+}
+.left {
+  float: left;
+}
+.t-left {
+  text-align: left;
+}
+.clear {
+  clear: both;
+}
+a:link, a:visited {
+  color: #0065a4;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #F37B20;
+  text-decoration: underline;
+}
+/* Colors */
+.red {
+  background-color: #ee3224;
+}
+.orange {
+  background-color: #ff9000;
+}
+.blue {
+  background-color: #0065a4;
+}
+.green {
+  background-color: #00b267;
+}
+.gold {
+  background-color: #ffcd05;
+}
+.butter {
+  background-color: #ffe682;
+}
+.manilla {
+  background-color: #fff5cd;
+}
+.white {
+  background-color: #fff;
+} 
+
+a.button {
+  font-weight: bold;
+  display: block;
+  padding: 3px;
+  color: #fff;
+  background: #ee3224;
+}
+
+ul.nav {
+  list-style-type: none;
+}
+ul.nav li {
+  float: left;
+}
+
+#wrapper {
+ min-width: 1100px;
+}
+#main {
+  width: 800px;
+  margin: 0 0 0 10px;
+}
+#header {
+  background: url(../images/header_bg.jpg) no-repeat;
+  height: 187px;
+  padding: 5px 0 0;
+  position: relative;
+}
+#logo {
+  background: url(../images/sparc_logo-trans.png) no-repeat;
+  width: 200px;
+  height: 92px;
+}
+#logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#header h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: right;
+  padding-right: 25px;
+}
+#about_us {
+  margin-top: -20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#about_us a:link, #about_us a:visited {
+  color: #999;
+}
+#about_us a:hover, #about_us a:active {
+  color: #fff;
+}
+
+/* Top Button Icons */
+#button_nav {
+  margin: 30px 15px 0 0;
+}
+#button_nav ul li {
+  height: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+#button_nav ul li.awards a {
+  background: url(../images/btn_awards-trans.png) no-repeat top;
+}
+#button_nav ul li.news a {
+  background: url(../images/btn_news-trans.png) no-repeat top;
+}
+#button_nav ul li.tips a {
+  background: url(../images/btn_tips-trans.png) no-repeat top;
+}
+#button_nav ul li.newsletter a {
+  background: url(../images/btn_newsletter-trans.png) no-repeat top;
+}
+#button_nav ul li.tools a {
+  background: url(../images/btn_tools-trans.png) no-repeat top;
+}
+#button_nav ul li.techlibrary a {
+  background: url(../images/btn_tech_library-trans.png) no-repeat top;
+  width: 80px;
+}
+#button_nav ul li a {
+  color: #222;
+  padding: 50px 0 0;
+  width: 60px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+}
+
+/* Tabbed Navigation */
+#tabbed_nav {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+}
+#tabbed_nav a {
+  background: url(../images/tab_bg-trans.png) no-repeat;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  padding: 10px 5px;
+  width: 150px;
+}
+#tabbed_nav li {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+#tabbed_nav li + li {
+  z-index: 7;
+  margin-left: -20px;
+}
+#tabbed_nav li + li + li {
+  z-index: 6;
+}
+#tabbed_nav li + li + li + li {
+  z-index: 5;
+}
+#tabbed_nav li  + li  + li  + li  + li {
+  z-index: 4;
+}
+#tabbed_nav li  + li  + li  + li  + li  + li {
+  z-index: 3;
+}
+#tabbed_nav li  + li  + li  + li  + li  + li  + li {
+  z-index: 2;
+}
+#tabbed_nav li.current {
+  z-index: 10;
+}
+#tabbed_nav li.current a {
+  background: url(../images/active_tab_bg-trans.png) no-repeat;
+  cursor: pointer;
+}
+
+/* Middle Content on Home Page */
+div#headings {
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  width: 800px;
+}
+div.sub div#middle {
+  border: 1px solid #ee3224;
+}
+div.home div#middle {
+  height: 275px;
+  position: relative;
+  overflow: hidden;
+  width: 800px;
+}
+div#middle .heading {
+  display: none;
+}
+.featured {
+  overflow: hidden;
+  width: 460px;
+  height: 275px;
+  color: #333;
+}
+.featured a {
+  color: #ee3224;
+  font-weight: bold;
+}
+.featured h2, .featured h3, .featured h4, .featured h5, .featured h6 {
+  margin: 2px 10px;
+  padding: 0 0 3px;
+  color: #0065a4;
+}
+.featured p, .featured ul {
+  padding: 2px 10px;
+}
+div.supplement {
+  height: 275px;
+  font-size: 14px;
+}
+div.supplement h3 {
+  border-bottom: 2px solid #ffcd05;
+  font-size: 22px;
+}
+div.supplement p {
+  margin: 20px 0 0;
+}
+div.supplement p:first-child.t-right { /* divs containing only images and the link */
+  margin-top: 220px;
+}
+div.right p.t-right{
+  font-weight: bold;
+  margin-top: 10px;
+}
+.heading {
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 0 5px 480px;
+  width: 320px;
+}
+div#center_headings {
+  width: 3000px;
+  height: 35px;
+}
+div.home div#center_content {
+  height: 275px;
+  width: 3000px;
+}
+div#center_content ul {
+  margin: 0 15px;
+}
+div.center_module {
+  width: 800px;
+}
+
+/* Middle Right Column */
+div#middle div.right {
+  width: 290px;
+  height: 100%;
+  color: #ee3224;
+  font-size: 12px;
+  padding: 5px 25px 0;
+  position: relative;
+}
+div#middle div.current_article {
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  font-size: 18px;
+}
+div#middle div.right a {
+  color: #ee3224;
+}
+div#middle div.right dl dt {
+  font-size: 10px;
+  margin: 5px 0 2px;
+}
+div#middle div.right dl dd {
+  padding: 0 0 5px;
+  border-bottom: 1px solid #ee3224;
+}
+div#middle div.right dl dd:last-child, div#middle div.right dl dd.last {
+  border: 0;
+}
+div#middle div.right dl ul {
+  margin: 0 0 0 15px;
+}
+
+.collage {
+  background: url(../images/ribbon_collage.jpg) no-repeat;
+  height: 62px;
+  position: relative;
+  z-index: 1;
+}
+.white_corner {
+  height: 62px;
+  width: 59px;
+  display: none;
+  background: url(../images/white_corner-trans.png) no-repeat;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+}
+
+/* Bottom Modules */
+div#footer {
+  margin: 10px 0 0;
+  padding: 0 10px 0 0;
+}
+table#energy_rate {
+  -moz-border-radius-bottomright: 25px;
+  -webkit-border-bottom-right-radius: 25px;
+}
+table#energy_rate h3 {
+  font-weight: normal;
+  font-size: 27px;
+}
+table#energy_rate td {
+  vertical-align: top;
+  padding: 5px 10px;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  width: 140px;
+}
+table#energy_rate td.gold {
+  background-image: url(../images/electricity-trans.png);
+  width: 150px;
+  height: 71px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+table#energy_rate tr:first-child td {
+  border-top: 1px solid #000;
+}
+table#energy_rate tr:first-child td:first-child, table#energy_rate tr.last td {
+  border-bottom: 1px solid #000;
+}
+table#energy_rate tr.last td.manilla  {
+  position: relative;
+  -moz-border-radius-bottomright: 25px;
+  -webkit-border-bottom-right-radius: 25px;
+}
+table#energy_rate td.manilla h4, table#energy_rate td.manilla h5, table#energy_rate tr.last td.manilla h6 {
+  position: relative;
+  z-index: 3;
+}
+table#energy_rate tr.last td.manilla div.corner {
+  background-image: url(../images/manilla_corner.png);
+  width: 54px;
+  height: 54px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  z-index: 2;
+}
+
+/* Right Column Modules */
+div#modules {
+  width: 280px;
+  margin: 0 0 0 10px;
+}
+div.module {
+  min-height: 170px;
+  margin: 0;
+}
+div.module h2 {
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+div#modules .genius {
+  background: url(../images/green_map.png) no-repeat;
+}
+div#modules .genius #location_list {
+  width: 150px;
+  vertical-align: top;
+}
+div#modules .genius #member_window{
+  height: 157px;
+  overflow: hidden;
+}
+div#modules .genius .members {
+  
+}
+div#modules .genius .member {
+  height: 140px;
+  padding: 10px 0 0;
+}
+div#modules .genius .member img {
+  border: 1px solid #333;
+  margin-right: 10px;
+  padding: 2px 2px 0;
+}
+div#modules .genius .member h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+div#modules .genius .member h4 {
+  font-size: 14px;
+}
+div#modules .genius .member h5 {
+  font-size: 12px;
+}
+div.energy {
+  border: 1px solid #ffcd05;
+}
+div.energy table {
+  margin: 0 0 15px 5px;
+  width: 100%;
+}
+div.energy table thead td {
+  font-weight: bold;
+  padding: 1px;
+}
+div.energy table td {
+  padding: 2px;
+}
+div.energy table td + td {
+  width: 90px;
+}
+div.energy table td + td + td {
+  width: 100px;
+}
+
+/* Sub Pages */
+div.sub .center_module {
+  padding: 10px 0;
+  min-height: 400px;
+}
+div.sub .featured_items {
+  font-size: 13px;
+  height: 150px;
+  border-bottom: 1px solid #ee3224;
+  overflow-y: auto;
+}
+div.sub div#middle h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ee3224;
+  font-size: 15px;
+}
+div.sub .featured_items p {
+  margin: 10px 0;
+}
+div.sub .featured_items ul {
+  list-style-type: disc;
+}
+div.sub .featured_items ul li {
+  margin: 0 0 0 20px;
+}
+div.sub h3 {
+  margin: 10px;
+  font-size: 14px;
+}
+table.archive {
+  border-collapse: collapse;
+  margin: 0 10px;
+  width: 95%;
+}
+table.archive thead td {
+  font-weight: bold;
+  border-bottom: 1px solid #888;
+  padding: 0 5px 4px 0;
+}
+table.archive tbody tr:first-child td {
+  padding-top: 5px;
+}
+table.archive tbody td {
+  min-width: 180px;
+  text-align: left;
+  vertical-align: top;
+  font-size: 13px;
+  padding: 0 5px 2px 0;
+}
+table.archive td a {
+  font-size: 13px;
+}
+
+/* Newsletter Page */
+div.newsletter #newsletter_main {
+  padding: 0 10px 20px;
+}
+
+/* About Us Pages */
+div#center_content div.about_us {
+  padding: 20px 10px;
+}
+
+/* Details Page */
+div.details div.detail_content {
+  padding: 10px;
+  font-size: 13px;
+}
+div.details h3, div#center_content div.about_us h3 {
+  margin: 0 0 10px;
+  color: #ee3224;
+}
+div.details h4, div#center_content div.about_us h4 {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+div.details p, div#center_content div.about_us p {
+  margin: 10px 0;
+}
+div.details #attachment {
+  float: right;
+  padding:  10px;
+  min-width: 170px;
+}
+
+/* About SPARC Page */
+div.about_sparc .featured_items {
+  overflow: visible;
+  padding: 0 20px 20px;
+  height: auto;
+  border: 0;
+}
+div.about_sparc div#center_content {
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+div.about_sparc div#center_content div.about_us {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  
+}
+
+div#center_content div.about_us li {
+  margin: 5px 0 5px 20px;
+}
+
+/* Tools Page */
+div.tools table.archive tbody td {
+  padding: 10px 0;
+}
+div.tools table.archive tbody td:first-child {
+  width: 180px;
+}
+
+/* Tech Library Page */
+div.techlibrary table.archive tbody td {
+  padding: 10px 0;
+}
+div.techlibrary table.archive tbody td:first-child {
+  width: 160px;
+}
+.center_module{
+            display: block !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
